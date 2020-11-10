@@ -43,6 +43,6 @@ jobs:
         run : npm install --global surge
       
       - name: deploying on surge
-         run :surge ./build http://wonderful-theory__.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
+        run : surge ./build http://wonderful-theory__.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
       
                 
