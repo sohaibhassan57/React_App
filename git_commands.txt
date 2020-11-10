@@ -9,4 +9,11 @@ to add one file on next commit
 
 >git add .
 to add all files in next commit
+
+>git commit --message "your message"
+or
+>git commit -m "your message" 
+
+>git push
+to push to origin 
  
