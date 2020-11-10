@@ -33,8 +33,10 @@ jobs:
           
             cmd: install # npm install/yarn install            
       
-     
-      
+        
+      - name : Installing Yarn
+        run  : npm install --global yarn
+
       - name : creating build folder
         run  : yarn build 
            
