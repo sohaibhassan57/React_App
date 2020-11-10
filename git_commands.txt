@@ -1,0 +1,12 @@
+>git status 
+it shows the file name which is modified currently 
+
+>git diff filename  # exmple app.js
+it shows the change between previous code and current change in file 
+
+>git add filename 
+to add one file on next commit
+
+>git add .
+to add all files in next commit
+ 
